@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet, Link } from 'react-router-dom'
-import Footer from './components/footer'
 import './styles/style.css'
+import Footer from './components/Footer'
 
 const Layout = () => {
   return (
@@ -9,7 +9,7 @@ const Layout = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/"><i class="fa-solid fa-house"></i> Home</Link>
+            <Link to="/"><i class="fa-solid fa-house"></i> Pics Web</Link>
           </li>
           <li>
             <Link to="About"><i class="fa-solid fa-flag"></i> About</Link>
